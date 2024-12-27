@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#simple shell changer.
 
 if [ $(whoami) != "root" ]
 then
