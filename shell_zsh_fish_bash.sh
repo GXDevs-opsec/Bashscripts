@@ -4,7 +4,7 @@
 
 if [ $(whoami) != "root" ]
 then
-   echo "sudo privilages required."
+   echo "sudo privileges required."
 exit 1
 fi
 
