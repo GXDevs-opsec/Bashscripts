@@ -1,5 +1,17 @@
 #!/bin/bash
 
+#© 2025 [GXDevs opsec]. All Rights Reserved.
+
+#Disclaimer:
+
+#By using this software, you acknowledge and agree that 
+#in no event shall the author or any contributors be held 
+#liable for any damages (including, without limitation, 
+#damages for loss of data or profit) arising out of the 
+#use of this software, even if the author or a contributor 
+#has been advised of the possibility of such damages. 
+#This software is provided "as is", and you are using it at your own risk.
+
 #MiTM attack using  ettercap
 
 [ $(whoami) != "root" ] &&  echo "[!] run this script with sudo" exit 99 
